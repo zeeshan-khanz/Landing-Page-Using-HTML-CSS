@@ -1,0 +1,124 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set default styles for body */
+body {
+    color: #fff;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Remove bullet points and padding from navbar ul */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Float navbar li to the right */
+.navbar li {
+    float: right;
+}
+
+/* Style navbar li a */
+.navbar li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style hover effect for navbar li a */
+.navbar li a:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 50px;
+}
+
+/* Style home section */
+#home {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Style left side of home section */
+.leftHome {
+    width: 500px;
+}
+
+/* Style headings in leftHome */
+.leftHome h3,
+.leftHome h2 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+/* Style h3 in leftHome */
+.leftHome h3 {
+    color: aqua;
+    font-size: 2rem;
+}
+
+/* Style h2 in leftHome */
+.leftHome h2 {
+    color: skyblue;
+    font-size: 3rem;
+}
+
+/* Style p in leftHome */
+.leftHome p {
+    margin-bottom: 1rem;
+    color: rgb(12, 20, 22);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style right side of home section */
+.righthome {
+    width: 50%;
+    position: relative;
+    margin: 1rem;
+}
+
+/* Style image in rightHome */
+.righthome img {
+    cursor: pointer;
+    height: 400px;
+    border-radius: 50px;
+    box-shadow: #333;
+}
+
+/* Style button */
+.btn {
+    cursor: pointer;
+    color: aqua;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1rem;
+    text-transform: uppercase;
+    border: 2px solid aqua;
+    background-color: black;
+}
+
+/* Style hover effect for button */
+.btn:hover {
+    color: black;
+    border: 2px solid white;
+    background-color: aqua;
+    border-radius: 15px;
+}
